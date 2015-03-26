@@ -1,0 +1,22 @@
+.site-header {
+	background-color: $czerwony;
+	h1 {
+		background: $czerwony url(/img/tlo.svg) 0 0 no-repeat;
+		max-width: 940px;
+		height: 201px;
+		margin: 0 auto;
+		padding-top: 22px;
+		.no-svg & {
+			background-image: url("/img/tlo.png")
+		}
+	}
+}
+a.site-title {
+	display: block;
+	width: 302px;
+	height: 152px;
+	background: url(/img/logo.svg) 0 0 no-repeat;
+	.no-svg & {
+		background-image: url("/img/logo.png")
+	}
+}

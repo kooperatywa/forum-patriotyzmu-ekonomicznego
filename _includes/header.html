@@ -1,0 +1,8 @@
+<header class="site-header">
+  <h1><a class="site-title" href="{{ site.baseurl }}/" title="I Forum Patriotyzmu Ekonomicznego"><span class="ir">{{ site.title }}</span></a></h1>
+</header>
+<nav role="navigation" class="group gradient">{% assign pages = site.pages | sort:"kolejnosc"  %}
+  <ul>
+    {% for p in pages %}{% if p.title %}<li><a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a></li>{% endif %}{% endfor %}
+  </ul>
+</nav>

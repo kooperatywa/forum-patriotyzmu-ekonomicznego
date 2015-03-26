@@ -1,0 +1,97 @@
+@-webkit-keyframes slajderFadeInOut {
+  0% {opacity:1;}
+  17% {opacity:1;}
+  25% {opacity:0;}
+  92% {opacity:0;}
+  100% {opacity:1;}
+}
+@keyframes slajderFadeInOut {
+  0% {opacity:1;}
+  17% {opacity:1;}
+  25% {opacity:0;}
+  92% {opacity:0;}
+  100% {opacity:1;}
+}
+#slajder .slajd {
+  -webkit-animation-duration: 28s;
+  animation-duration: 28s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: slajderFadeInOut;
+  animation-name: slajderFadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  z-index: -1;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  -ms-transform: translate(0px,2px); /* IE 9 */
+  -webkit-transform: translate(0px,2px); /* Safari */
+  transform: translate(0px,2px);
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+}
+.slajd1 {background: url(/img/slajd1.jpg) 50% 0 no-repeat;}
+.cssanimations .slajd2 {background: url(/img/slajd2.jpg) 50% 0 no-repeat;}
+.cssanimations .slajd3 {background: url(/img/slajd3.jpg) 50% 0 no-repeat;}
+.cssanimations .slajd4 {background: url(/img/slajd4.jpg) 50% 0 no-repeat;}
+
+@media screen and (max-width: 900px) {
+  #slajder .slajd {
+    height: 418px;
+  }
+  .slajd1 {background: url(/img/slajd1-900.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd2 {background: url(/img/slajd2-900.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd3 {background: url(/img/slajd3-900.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd4 {background: url(/img/slajd4-900.jpg) 50% 0 no-repeat;}
+}
+
+@media screen and (max-width: 760px) {
+  #slajder .slajd {
+    height: 353px;
+  }
+  .slajd1 {background: url(/img/slajd1-760.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd2 {background: url(/img/slajd2-760.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd3 {background: url(/img/slajd3-760.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd4 {background: url(/img/slajd4-760.jpg) 50% 0 no-repeat;}
+}
+
+@media screen and (max-width: 640px) {
+  #slajder .slajd {
+    height: 297px;
+  }
+  .slajd1 {background: url(/img/slajd1-640.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd2 {background: url(/img/slajd2-640.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd3 {background: url(/img/slajd3-640.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd4 {background: url(/img/slajd4-640.jpg) 50% 0 no-repeat;}
+}
+
+@media screen and (max-width: 480px) {
+  #slajder .slajd {
+    height: 223px;
+  }
+  .slajd1 {background: url(/img/slajd1-480.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd2 {background: url(/img/slajd2-480.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd3 {background: url(/img/slajd3-480.jpg) 50% 0 no-repeat;}
+  .cssanimations .slajd4 {background: url(/img/slajd4-480.jpg) 50% 0 no-repeat;}
+}
+
+#slajder .slajd:nth-of-type(1) {
+  -webkit-animation-delay: 21s;
+  animation-delay: 21s;
+}
+#slajder .slajd:nth-of-type(2) {
+  -webkit-animation-delay: 14s;
+  animation-delay: 14s;
+}
+#slajder .slajd:nth-of-type(3) {
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
+}
+#slajder .slajd:nth-of-type(4) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}

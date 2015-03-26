@@ -1,0 +1,51 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	overflow-y: scroll;
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.ir {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+@mixin odstep($odstep: 1) {
+	margin-top: $odstep*2em;
+}
+$czerwony: #dc0d15;
+$szary: #818080;
+$szary-jasny: #e3e3e3;
+$link: #14387f;
+ul, ol {
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+td {
+	vertical-align: top;
+}
+.button {
+	text-align: center;
+	margin-top: 4em;
+	a {
+		background-color: $czerwony;
+		color: #fff;
+		padding: 1em;
+		text-transform: uppercase;
+		&:hover {
+			background-color: darken($czerwony, 5%);
+		}
+	}
+}

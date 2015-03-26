@@ -1,0 +1,66 @@
+.site-footer {
+	background:	url(/img/romb.svg) 50% 0 repeat-x,
+							url(/img/romb.svg) 50% 100% repeat-x;
+	padding: 32px 0 48px 0;
+	.no-svg & {
+		background-image: url("/img/romb.png")
+	}
+	.no-multiplebgs & {
+		background:	url(/img/romb.png) 50% 0 repeat-x;
+	}
+}
+html.no-multiplebgs {
+	background:	url(/img/romb.png) 50% 100% repeat-x;
+}
+.logosy	{
+	padding: 0 20px;
+	.blok {
+		width: 430px;
+		padding-right: 30px;
+		@include odstep(1);
+		float: left;
+		@media screen and (max-width: 900px) {
+			width: auto;
+			padding-right: 0;
+			float: none;
+		}
+	}
+	h4 {
+		margin-top: 0;
+		border-top: 1px solid $szary-jasny;
+		padding-top: 3px;
+		font-size: em(14);
+		font-weight: normal;
+		text-transform: uppercase;
+		letter-spacing: .15em;
+		color: $szary;
+	}
+	ul {
+		margin: 0;
+		li {
+			float: left;
+			margin: 0 30px 20px 0;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+.logo {
+	display: block;
+	background-image: url("/img/logosy.png");
+	background-repeat: no-repeat;
+	height: 30px;
+}
+.fundacja-kazimierza-wielkiego { background-position: 0px 0px; width: 209px; }
+.zgorzelski-consulting { background-position: -219px 0px; width: 84px; }
+.wyzsza-szkola-bankowa { background-position: 0px -38px; width: 156px; }
+.polski-slad { background-position: -166px -38px; width: 29px; }
+.centrum-grabskiego { background-position: -205px -38px; width: 81px; }
+.tvp { background-position: 0px -78px; width: 83px; }
+.forbes { background-position: -94px -78px; width: 68px; }
+.polskie-radio { background-position: -173px -78px; width: 81px; }
+.w-gospodarce { background-position: 0px -118px; width: 82px; }
+.biztok { background-position: -92px -118px; width: 71px; }
+.mysl-pl { background-position: -173px -118px; width: 54px; }
+.gazeta-bankowa { background-position: -237px -118px; width: 99px; }

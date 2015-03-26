@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% for post in site.posts %}
+<article class="wiadomosc">
+  <h2>
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </h2>
+  <p class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</p>
+  {% if post.content contains "<!-- wiecej -->" %}
+    {{ post.content | split:"<!-- wiecej -->" | first % }} <a href="{{ post.url | prepend: site.baseurl }}">Czytaj&nbsp;więcej&nbsp;&rarr;</a>
+  {% else %}
+    {{ post.content }}
+  {% endif %}
+</article>
+{% endfor %}
