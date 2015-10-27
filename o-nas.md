@@ -12,7 +12,7 @@ kolejnosc: 4
 
 [![Zgorzelski Consulting - logo](/img/zgorzelski-consulting.png)](http://www.zgorzelski-consulting.pl/)
 
-[**Zgorzelski Consulting**](http://www.zgorzelski-consulting.pl/) doświadczona w doradztwie biznesowym na przecięciu różnych branż firma, realizująca także od lat liczne szkolenia.
+[**Zgorzelski Consulting**](http://www.zgorzelski-consulting.pl/) stawia sobie za cel świadczenie najwyższej klasy usług doradztwa biznesowego poprzez kreowanie nowoczesnych i pozytywnych rozwiązań dla biznesu z użyciem metody metadoradztwa pojmowanego jako proces ciągłego tworzenia i doskonalenia, będącego gwarantem optymalizacji sukcesów naszych Klientów. Prowadzi szeroko zakrojoną działalność ekspercką i analityczną monitorując zmiany na rynku w obszarze regulacji prawnych, procesów gospodarczych oraz kulturowych. Szczególnym obszarem zainteresowania Zgorzelski Consulting cieszy się sektor usług pocztowych w Polsce, Europie i świecie oraz wszelkie narzędzia komunikacji społecznej.
 
 ## Patron merytoryczny i współorganizator: ##
 
